@@ -12,7 +12,7 @@ export default function DynamicPage() {
   useEffect(() => {
     const fetchPage = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/pages/${slug}`);
+        const res = await fetch(`https://dynamic-webpage-builder-backend.onrender.com/api/pages/${slug}`);
         const data = await res.json();
         setPageData(data);
       } catch (err) {
