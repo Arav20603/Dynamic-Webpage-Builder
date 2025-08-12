@@ -4,7 +4,7 @@ This project allows dynamic page creation from the backend and renders them on t
 Users can create pages by sending JSON data (via `curl`, Postman, or Thunder Client) and access them by visiting the generated slug.
 
 ## Live Demo
-Frontend: https://dynamic-webpage-frontend.onrender.com
+Frontend: https://dynamic-webpage-frontend.onrender.com.   
 Backend API: https://dynamic-webpage-builder-backend.onrender.com    
 GitHub Repo: https://github.com/Arav20603/Dynamic-Webpage-Builder
 
@@ -86,3 +86,4 @@ npm run dev
 # configure environment variables
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
+
