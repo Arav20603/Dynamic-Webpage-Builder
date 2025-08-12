@@ -37,7 +37,7 @@ GitHub Repo: https://github.com/Arav20603/Dynamic-Webpage-Builder
 Send a POST request to create a new page:
 
 ```bash
-curl -X POST https://your-backend-url.onrender.com/api/pages \
+curl -X POST https://dynamic-webpage-builder-backend.onrender.com/api/pages \
 -H "Content-Type: application/json" \
 -d '{
   "slug": "services",
@@ -86,4 +86,5 @@ npm run dev
 # configure environment variables
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
+
 
